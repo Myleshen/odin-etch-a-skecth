@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 95vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 642px;
+    width: 642px;
+    border: 1px solid black;
+}
+
+.sideBar {
+    display: flex;
+    flex-grow: 1;
+    height: inherit;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.square16 {
+    height: 40px;
+    width: 40px;
+}
+
+.square32 {
+    height: 20px;
+    width: 20px;
+}
+
+.square48 {
+    height: 13.33px;
+    width: 13.33px;
+}
+
+.square64 {
+    height: 10px;
+    width: 10px;
+}
